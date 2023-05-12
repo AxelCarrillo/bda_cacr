@@ -7,6 +7,6 @@ CREATE TABLE Personas (
 INSERT INTO Personas (nombre, primer_apellido, segundo_apellido, email)
 VALUES
     ('Axel', 'Carrillo', 'Rocha', 'axel.carrillo@example.com'),
-    ('Carol', 'Jimenez', 'López', 'carol.jimenez@example.com'),
+    ('Carol', 'Jimenez', 'Martinez', 'carol.jimenez@example.com'),
     ('Kayla', 'Carrillo', 'Jimenez', 'kaylacarji@example.com');
 SELECT * FROM Personas;
