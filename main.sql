@@ -1,7 +1,7 @@
 .headers on
-.mode box
-.import personas.csv personas
-
+.mode 
+.import registross.csv personas
+    
 SELECT CREAR TABLA personas;
 
 CREATE TABLE personas(
@@ -10,6 +10,6 @@ CREATE TABLE personas(
     primer_apellido    VARCHAR(20)    NOT NULL,
     segundo_apellido    VARCHAR(20)    NOT NULL,
     email    VARCHAR(30)    NOT NULL
-);
-
+ );
+    
 SELECT * FROM personas;
